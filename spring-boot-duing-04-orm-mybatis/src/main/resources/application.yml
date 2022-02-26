@@ -1,0 +1,14 @@
+server:
+  port: 8090
+
+  #数据源配置
+spring:
+  #数据源
+ datasource:
+    url: jdbc:mysql://localhost:3306/test_schema?serverTimezone=Asia/Shanghai
+    username: root
+    password: 123456
+#mybatis:
+#  mapper-locations: classpath*:/mybatis/mapper/*.xml
+#  type-aliases-package: com.duing.model
+#  config-location: classpath:mybatis-config.xml
